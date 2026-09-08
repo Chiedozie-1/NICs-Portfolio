@@ -1,0 +1,1680 @@
+<!doctype html>
+<html lang="zxx">
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8" />
+    <!-- Title-->
+    <title>NIC - Web Developer</title>
+    <!-- Description-->
+    <meta name="description" content="Personal Portfolio" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Favicon-->
+    <link rel="icon" type="img/png" href="img/favicons/mylogoW.png" />
+    <!-- Devicons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+    <!-- Web fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i&amp;display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS vendors-->
+    <link rel="stylesheet" href="css/bootstrap-custom.css" />
+    <link rel="stylesheet" href="css/ionicons.min.css" />
+    <link rel="stylesheet" href="css/tiny-slider.css" />
+    <link rel="stylesheet" href="css/lity.min.css" />
+    <link rel="stylesheet" href="css/simplebar.min.css" />
+    <link rel="stylesheet" href="css/jquery.mb.YTPlayer.min.css" />
+    <!-- Main CSS-->
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- CSS Color scheme-->
+    <link
+      id="color-scheme"
+      rel="stylesheet"
+      href="css/colors/main-darkgreen.css"
+    />
+    <!-- Custom CSS (Add your custom CSS styles to this file)-->
+    <link rel="stylesheet" href="css/custom.css" />
+    <!-- removeIf(customizerDist)-->
+    <link rel="stylesheet" href="../customizer/main.css" />
+    <!-- endremoveIf(customizerDist)-->
+  </head>
+
+  <body class="theme-dark">
+    <!-- Preloader-->
+    <div class="preloader">
+      <div class="preloader-block">
+        <div class="preloader-icon">
+          <span class="loading-dot loading-dot-1"></span
+          ><span class="loading-dot loading-dot-2"></span
+          ><span class="loading-dot loading-dot-3"></span>
+        </div>
+      </div>
+    </div>
+    <div id="overlay-effect"></div>
+    <!-- Navbar-->
+    <nav class="navbar-expand-md navbar fixed-top" id="navbar">
+      <a class="navbar-brand" data-scroll="" href="#home-area">
+        <!-- Navbar Logo-->
+        <img class="img-fluid" src="img/mylogoW.png" alt="Logo"
+      /></a>
+      <span
+        class="navbar-menu ml-auto"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        role="button"
+        ><span class="btn-line"></span
+      ></span>
+      <div
+        class="collapse navbar-collapse order-1 order-lg-0"
+        id="navbarSupportedContent"
+      >
+        <!-- Navbar menu-->
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#resume">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <!-- <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Home-->
+    <section
+      class="home-area element-cover-bg video-variant"
+      id="home"
+      style="background-image: url(img/.jpg)"
+    >
+      <video
+        id="homeVideo"
+        class="player"
+        autoplay
+        muted
+        loop
+        playsinline
+        poster="img/video.jpg"
+        style="
+          position: absolute;
+          inset: 0;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          z-index: 0;
+        "
+      >
+        <source src="img/background-video2.mp4" type="video/mp4" />
+      </video>
+      <div class="container h-100" style="position: relative; z-index: 2">
+        <div class="row h-100 align-items-center justify-content-center">
+          <div class="col-12 col-lg-8 home-content text-center">
+            <h1 class="home-name">Nkulo .I. <span>Chiedozie</span></h1>
+            <h4 class="cd-headline clip home-headline">
+              I’m a
+              <span class="cd-words-wrapper single-headline"
+                ><b class="is-visible">Developer</b><b>Designer</b
+                ><b>Freelancer</b></span
+              >
+            </h4>
+          </div>
+        </div>
+      </div>
+      <div class="fixed-wrapper">
+        <!-- Brand-->
+        <div class="fixed-block block-left">
+          <ul class="list-unstyled languages-list">
+            <li><span class="single-language">NIC</span></li>
+            <li><span class="single-language">TECH</span></li>
+          </ul>
+        </div>
+        <!-- Social media icons-->
+        <div class="fixed-block block-right">
+          <ul class="list-unstyled social-icons">
+            <!-- <li><a href="#0"><i class="icon ion-logo-twitter"></i></a></li>
+          <li><a href="#0"><i class="icon ion-logo-facebook"></i></a></li> -->
+            <li>
+              <a
+                href="https://linkedin.com/in/chiedozie-nkulo-58b41135b"
+                target="_blank"
+                ><i class="icon ion-logo-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://github.com/Chiedozie-1" target="_blank"
+                ><i class="icon ion-logo-github"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://wa.me/2348034825459" target="_blank"
+                ><i class="icon ion-logo-whatsapp"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- About lightbox-->
+    <div class="lightbox-wrapper" id="about" data-simplebar>
+      <div class="container">
+        <div class="lightbox-close">
+          <div class="close-btn" data-modal-close="">
+            <span class="btn-line"></span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="lightbox-content">
+              <div class="row">
+                <div class="col-12">
+                  <div class="section-heading page-heading">
+                    <p class="section-description">Get to know me</p>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="animated-bar"></div>
+                  </div>
+                </div>
+              </div>
+              <!-- Info section-->
+              <div class="info-section single-section">
+                <div class="row align-items-center">
+                  <!-- Picture part-->
+                  <div class="col-12 col-lg-5 info-img">
+                    <img
+                      class="img-fluid img-thumbnail"
+                      src="img/about_me.png"
+                      alt="About Picture"
+                    />
+                  </div>
+                  <!-- Content part-->
+                  <div class="col-12 col-lg-7 info-content">
+                    <div class="content-block">
+                      <h2 class="content-subtitle">Who am i?</h2>
+                      <h6 class="content-title">
+                        I'm Chiedozie Ikechukwu Nkulo, a Web Developer and
+                        visual UX/UI Designer
+                      </h6>
+                      <div class="content-description">
+                        <p>
+                          I’m a passionate <b>Software Developer</b> focused on
+                          building modern, practical, and intelligent digital
+                          solutions. I have experience across
+                          <b
+                            >web development, AI, automation, and backend
+                            systems</b
+                          >, with a strong interest in using technology to solve
+                          real-world problems. My development journey has given
+                          me hands-on experience working with technologies such
+                          as
+                          <b
+                            >HTML, CSS, JavaScript, Bootstrap, Tailwind CSS,
+                            React, Next.js, PHP, Python, Flask, MySQL, and
+                            PostgreSQL</b
+                          >. I also have experience integrating APIs, working
+                          with databases, deploying applications, and building
+                          systems that combine software development with AI. One
+                          of my key projects is <b>SentinelAI</b>, an AI-powered
+                          malware detection system designed to analyze files and
+                          identify potentially malicious software. Building
+                          SentinelAI strengthened my experience in
+                          <b
+                            >Python, machine learning, Flask, database
+                            management, and AI-driven application development</b
+                          >. Beyond writing code, I’m interested in
+                          <b>AI automation and emerging technologies</b>,
+                          especially creating software that can automate
+                          repetitive processes, improve efficiency, and make
+                          complex tasks easier for people and businesses. I’m
+                          constantly learning, experimenting with new
+                          technologies, and turning ideas into working products.
+                          My goal is to build technology that is not only
+                          technically impressive, but also
+                          <b>useful, scalable, and impactful</b>.
+                        </p>
+                      </div>
+                      <address class="content-info">
+                        <div class="row">
+                          <div class="col-12 col-md-6 single-info">
+                            <span>Name:</span>
+                            <p>Chiedozie Ikechukwu Nkulo</p>
+                          </div>
+                          <div class="col-12 col-md-6 single-info">
+                            <span>Email:</span>
+                            <p>
+                              <a href="mailto:dozienkulo@gmail.com"
+                                >dozienkulo@gmail.com</a
+                              >
+                            </p>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-12 col-md-6 single-info">
+                            <span>Age:</span>
+                            <p id="age"></p>
+                          </div>
+                          <div class="col-12 col-md-6 single-info">
+                            <span>From:</span>
+                            <p>Abia State, Nigeria</p>
+                          </div>
+                        </div>
+                      </address>
+                      <div class="d-block d-sm-flex align-items-center">
+                        <a
+                          class="btn content-download button-main button-scheme"
+                          href="DOC/CV-(NIC).docx"
+                          role="button"
+                          >Download CV</a
+                        >
+                        <ul class="list-unstyled list-inline content-follow">
+                          <li class="list-inline-item">
+                            <a
+                              href="https://linkedin.com/in/chiedozie-nkulo-58b41135b"
+                              ><i class="icon ion-logo-linkedin"></i
+                            ></a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a
+                              href="https://github.com/Chiedozie-1"
+                              target="_blank"
+                              ><i class="icon ion-logo-github"></i
+                            ></a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a
+                              href="https://wa.me/2348034825459"
+                              target="_blank"
+                              ><i class="icon ion-logo-whatsapp"></i
+                            ></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Services section-->
+              <div class="services-section single-section">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="section-heading">
+                      <p class="section-description">
+                        Services i offer to my clients
+                      </p>
+                      <h2 class="section-title">My Services</h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <!-- Single service-->
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-service">
+                      <i class="icon service-icon ion-logo-wordpress"></i>
+                      <h6 class="service-title">Web Development</h6>
+                      <p class="service-description">
+                        Building responsive, modern websites and web
+                        applications that are fast, functional, and built to
+                        scale.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- Single service-->
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-service">
+                      <i class="icon service-icon ion-md-move"></i>
+                      <h6 class="service-title">AI Automation</h6>
+                      <p class="service-description">
+                        Automating repetitive business processes with AI-powered
+                        workflows that save time and improve efficiency.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- Single service-->
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-service">
+                      <i class="icon service-icon ion-logo-css3"></i>
+                      <h6 class="service-title">AI & Machine Learning</h6>
+                      <p class="service-description">
+                        Building intelligent systems that use AI and ML to solve
+                        problems, automate processes, and generate insights.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- Single service-->
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-service">
+                      <i class="icon service-icon ion-logo-ionic"></i>
+                      <h6 class="service-title">Website Maintenance</h6>
+                      <p class="service-description">
+                        Keeping websites and software secure, updated,
+                        optimized, and running reliably.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- Single service-->
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-service">
+                      <i class="icon service-icon ion-md-images"></i>
+                      <h6 class="service-title">API & Backend Development</h6>
+                      <p class="service-description">
+                        Building secure backend systems, APIs, databases, and
+                        integrations that power reliable applications.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- Single service-->
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-service">
+                      <i class="icon service-icon ion-ios-rocket"></i>
+                      <h6 class="service-title">UI/UX Design</h6>
+                      <p class="service-description">
+                        Designing clean, intuitive interfaces that create
+                        seamless digital experiences.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Testimonials section-->
+              <!-- <div class="testimonials-section single-section">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="section-heading">
+                      <p class="section-description">What my clients think about me</p>
+                      <h2 class="section-title">Testimonials</h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="my-slider">
+                  <div class="slider-item">
+                    
+                    <div class="single-review swiper-slide">
+                      <div class="review-header d-flex justify-content-between">
+                        <div class="review-client">
+                          <div class="media"><img class="img-fluid rounded-circle client-avatar" src="img/client-1.jpg" alt="Client">
+                            <div class="client-details">
+                              <h6 class="client-name">Julia Sakura</h6><span class="client-role">Envato Customer</span>
+                            </div>
+                          </div>
+                        </div><i class="icon ion-md-quote review-icon"></i>
+                      </div>
+                      <p class="review-content">Emma did an excellent creative job, addressing our request quickly, and also providing her own graphic insight, being open to feedback and changes or edits when they arose. She worked with us the entire way. Highly recommended.</p>
+                    </div>
+                  </div>
+                  <div class="slider-item">
+                    
+                    <div class="single-review swiper-slide">
+                      <div class="review-header d-flex justify-content-between">
+                        <div class="review-client">
+                          <div class="media"><img class="img-fluid rounded-circle client-avatar" src="img/client-2.jpg" alt="Client">
+                            <div class="client-details">
+                              <h6 class="client-name">John Santana</h6><span class="client-role">Entrepreneur</span>
+                            </div>
+                          </div>
+                        </div><i class="icon ion-md-quote review-icon"></i>
+                      </div>
+                      <p class="review-content">Emma did an excellent creative job, addressing our request quickly, and also providing her own graphic insight, being open to feedback and changes or edits when they arose. She worked with us the entire way. Highly recommended.</p>
+                    </div>
+                  </div>
+                  <div class="slider-item">
+                  
+                    <div class="single-review swiper-slide">
+                      <div class="review-header d-flex justify-content-between">
+                        <div class="review-client">
+                          <div class="media"><img class="img-fluid rounded-circle client-avatar" src="img/client-3.jpg" alt="Client">
+                            <div class="client-details">
+                              <h6 class="client-name">Maria Wilson</h6><span class="client-role">Envato Customer</span>
+                            </div>
+                          </div>
+                        </div><i class="icon ion-md-quote review-icon"></i>
+                      </div>
+                      <p class="review-content">Emma did an excellent creative job, addressing our request quickly, and also providing her own graphic insight, being open to feedback and changes or edits when they arose. She worked with us the entire way. Highly recommended.</p>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+              <!-- Testimonials section end -->
+              <!-- Pricing section-->
+              <!-- <div class="pricing-section single-section">
+              <div class="row">
+                <div class="col-12">
+                  <div class="section-heading">
+                    <p class="section-description">Get started with my services</p>
+                    <h2 class="section-title">Choose a Plan</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="row align-items-center">
+                
+                <div class="col-lg-4">
+                  <div class="single-plan mb-4 mb-sm-5"><i class="plan-icon icon ion-md-egg"></i>
+                    <h3 class="plan-type">Basic</h3>
+                    <h2 class="plan-price">$19/month</h2>
+                    <ul class="list-unstyled plan-list">
+                      <li>Custom UI/UX design</li>
+                      <li>1–3 pages website</li>
+                      <li>Responsive design (mobile-friendly)</li>
+                      <li>Contact form / basic functionality</li>
+                      <li>Delivery in 5–7 days</li>
+                      <li>Basic SEO setup</li>
+                      <li>Free 1–month support</li>
+                    </ul><a class="btn button-main button-scheme plan-btn" href="#0" role="button">Get Standard</a>
+                  </div>
+                </div>
+                
+                <div class="col-lg-4">
+                  <div class="single-plan mb-4 mb-sm-5"><i class="plan-icon icon ion-ios-rocket"></i>
+                    <h3 class="plan-type">Professional</h3>
+                    <h2 class="plan-price">$29/month</h2>
+                    <ul class="list-unstyled plan-list">
+                      <li>5–10 pages website</li>
+                      <li>Custom UI/UX design</li>
+                      <li>Blog / CMS integration</li>
+                      <li>Advanced SEO setup</li>
+                      <li>Social media integration</li>
+                      <li>Free 2–month support</li>
+                      <li>Delivery in 7–10 days</li>
+                    </ul><a class="btn button-main button-scheme plan-btn" href="#0" role="button">Get Pro</a>
+                  </div>
+                </div>
+                
+                <div class="col-lg-4">
+                  <div class="single-plan mb-4 mb-sm-5"><i class="plan-icon icon ion-logo-ionic"></i>
+                    <h3 class="plan-type">Business</h3>
+                    <h2 class="plan-price">$39/month</h2>
+                    <ul class="list-unstyled plan-list">
+                      <li>10+ pages website / Web app</li>
+                      <li>E-commerce functionality</li>
+                      <li>Custom dashboard/admin panel</li>
+                      <li>API integrations (e.g., payments, 3rd party tools)</li>
+                      <li>Security & performance optimization</li>
+                      <li>Free 3–6 months support</li>
+                      <li>Delivery time depends on complexity</li>
+                    </ul><a class="btn button-main button-scheme plan-btn" href="#0" role="button">Get Business</a>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+              <!-- Pricing section end -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Resume lightbox-->
+    <div class="lightbox-wrapper" id="resume" data-simplebar>
+      <div class="container">
+        <div class="lightbox-close">
+          <div class="close-btn" data-modal-close="">
+            <span class="btn-line"></span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="lightbox-content">
+              <div class="row">
+                <div class="col-12">
+                  <div class="section-heading page-heading">
+                    <p class="section-description">Check out my Resume</p>
+                    <h2 class="section-title">Resume</h2>
+                    <div class="animated-bar"></div>
+                  </div>
+                </div>
+              </div>
+              <!-- Resume section-->
+              <div class="resume-section single-section">
+                <div class="row">
+                  <!-- Education part-->
+                  <div class="col-12 col-md-6">
+                    <div class="col-block education">
+                      <h3 class="col-title">Education</h3>
+                      <div class="resume-item">
+                        <span class="item-arrow"></span>
+                        <h5 class="item-title">
+                          Computer Science (undergraduate)
+                        </h5>
+                        <span class="item-details"
+                          >Godfrey Okoye University / 2022 - 2026
+                          (Expected)</span
+                        >
+                        <p class="item-description">
+                          Currently pursuing a degree in Computer Science with a
+                          focus on software development, web technologies, and
+                          user-centered design.
+                        </p>
+                      </div>
+                      <div class="resume-item">
+                        <span class="item-arrow"></span>
+                        <h5 class="item-title">Bachelor Degree</h5>
+                        <span class="item-details"
+                          >Godfrey Okoye University / 2022 - 2026
+                          (Expected)</span
+                        >
+                        <p class="item-description">
+                          Currently pursuing a degree in Computer Science with a
+                          focus on software development, web technologies, and
+                          user-centered design.
+                        </p>
+                      </div>
+                      <!-- *** TO BE ADDED LATER *** -->
+                      <!-- <div class="resume-item"><span class="item-arrow"></span>
+                      <h5 class="item-title">Master Degree</h5><span class="item-details"> --- </span>
+                      <p class="item-description"> --- </p>
+                    </div> -->
+                    </div>
+                  </div>
+                  <!-- Experience part-->
+                  <div class="col-12 col-md-6">
+                    <div class="col-block experience">
+                      <h3 class="col-title">Experience</h3>
+                      <div class="resume-item">
+                        <span class="item-arrow"></span>
+                        <h5 class="item-title">
+                          Web Development / Maintenance
+                        </h5>
+                        <span class="item-details"
+                          >Firstlincoln Technologies / 04-09 2025
+                        </span>
+                        <p class="item-description">
+                          Gained hands-on experience on development and
+                          maintainance of websites, ensuring smooth performance
+                          and modern design alignment.
+                        </p>
+                      </div>
+                      <div class="resume-item">
+                        <span class="item-arrow"></span>
+                        <h5 class="item-title">
+                          Front-End Developement Intern
+                        </h5>
+                        <span class="item-details"
+                          >Internpulse / 04-07 2025
+                        </span>
+                        <p class="item-description">
+                          Built responsive user interfaces as part of a
+                          collaborative, multi-track team, focusing on
+                          responsive design, and seamless user experience.
+                        </p>
+                      </div>
+                      <!-- *** TO BE ADDED LATER *** -->
+                      <!-- <div class="resume-item"><span class="item-arrow"></span>
+                      <h5 class="item-title">Front-End Developer</h5><span class="item-details">BetControl / 2025 - Present</span>
+                      <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quo repudiandae.</p>
+                    </div> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Skills section-->
+              <div class="skills-section single-section">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="section-heading">
+                      <p class="section-description">
+                        My level of knowledge in some tools
+                      </p>
+                      <h2 class="section-title">My Skills</h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 col-md-6">
+                    <div class="single-skill" data-percentage="97">
+                      <div class="skill-info">
+                        <span class="skill-name">HTML/CSS</span
+                        ><span class="skill-percentage"></span>
+                      </div>
+                      <div class="progress skill-progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        ></div>
+                      </div>
+                    </div>
+                    <div class="single-skill" data-percentage="90">
+                      <div class="skill-info">
+                        <span class="skill-name">Bootstrap</span
+                        ><span class="skill-percentage"></span>
+                      </div>
+                      <div class="progress skill-progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        ></div>
+                      </div>
+                    </div>
+                    <div class="single-skill" data-percentage="85">
+                      <div class="skill-info">
+                        <span class="skill-name">Tailwind</span
+                        ><span class="skill-percentage"></span>
+                      </div>
+                      <div class="progress skill-progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        ></div>
+                      </div>
+                    </div>
+                    <div class="single-skill" data-percentage="80">
+                      <div class="skill-info">
+                        <span class="skill-name">Web Design</span
+                        ><span class="skill-percentage"></span>
+                      </div>
+                      <div class="progress skill-progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="single-skill" data-percentage="85">
+                      <div class="skill-info">
+                        <span class="skill-name">Javascript</span
+                        ><span class="skill-percentage"></span>
+                      </div>
+                      <div class="progress skill-progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        ></div>
+                      </div>
+                    </div>
+                    <div class="single-skill" data-percentage="80">
+                      <div class="skill-info">
+                        <span class="skill-name">PHP</span
+                        ><span class="skill-percentage"></span>
+                      </div>
+                      <div class="progress skill-progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        ></div>
+                      </div>
+                    </div>
+                    <div class="single-skill" data-percentage="90">
+                      <div class="skill-info">
+                        <span class="skill-name">MySql</span
+                        ><span class="skill-percentage"></span>
+                      </div>
+                      <div class="progress skill-progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        ></div>
+                      </div>
+                    </div>
+                    <div class="single-skill" data-percentage="90">
+                      <div class="skill-info">
+                        <span class="skill-name">Wordpress</span
+                        ><span class="skill-percentage"></span>
+                      </div>
+                      <div class="progress skill-progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Tech stack -->
+                <section class="tech-stack my-5">
+                  <div class="container" data-aos="fade-up">
+                    <!-- <h2 class="text-center mb-4">Tech Stack</h2> -->
+                    <div class="marquee-wrapper">
+                      <marquee behavior="" direction="">
+                        <i
+                          class="devicon-html5-plain mx-2"
+                          style="font-size: 40px"
+                        ></i>
+                        <i
+                          class="devicon-css3-plain mx-2"
+                          style="font-size: 40px"
+                        ></i>
+                        <i
+                          class="devicon-javascript-plain mx-2"
+                          style="font-size: 40px"
+                        ></i>
+                        <i
+                          class="devicon-bootstrap-plain mx-2"
+                          style="font-size: 40px"
+                        ></i>
+                        <i
+                          class="devicon-tailwindcss-plain mx-2"
+                          style="font-size: 40px"
+                        ></i>
+                        <i
+                          class="devicon-php-plain mx-2"
+                          style="font-size: 40px"
+                        ></i>
+                        <i
+                          class="devicon-mysql-plain mx-2"
+                          style="font-size: 40px"
+                        ></i>
+                        <i
+                          class="devicon-vscode-plain mx-2"
+                          style="font-size: 40px"
+                        ></i>
+                        <i
+                          class="devicon-wordpress-plain mx-2"
+                          style="font-size: 40px"
+                        ></i>
+                        <i
+                          class="devicon-github-original mx-2"
+                          style="font-size: 40px"
+                        ></i>
+                        <i
+                          class="devicon-figma-plain"
+                          style="font-size: 40px"
+                        ></i>
+                      </marquee>
+                    </div>
+                  </div>
+                </section>
+              </div>
+              <!-- Video section-->
+              <!-- <div class="video-section single-section">
+              <div class="row align-items-center">
+                <div class="col-12 col-lg-6 content-part">
+                  <h3 class="video-title">Take a tour of my office</h3>
+                  <p class="video-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia cum quasi assumenda culpa praesentium consectetur voluptatibus expedita. Voluptatem tempore, aspernatur rem facilis, distinctio nemo! Odio velit, nemo dolorem voluptas!</p>
+                  <p class="video-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium qui aspernatur unde mollitia, in laborum.</p>
+                </div>
+                <div class="col-12 col-lg-6 video-part"><a class="media-lightbox" href="https://www.youtube.com/watch?v=doteMqP6eSc" data-lightbox>
+                    <div class="embed-responsive embed-responsive-16by9">
+                      <div class="embed-responsive-item element-cover-bg"><span class="play-wrapper"><i class="icon ion-md-play"></i></span></div>
+                    </div>
+                  </a></div>
+              </div>
+            </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio lightbox-->
+    <div class="lightbox-wrapper" id="portfolio" data-simplebar>
+      <div class="container">
+        <div class="lightbox-close">
+          <div class="close-btn" data-modal-close="">
+            <span class="btn-line"></span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="lightbox-content">
+              <div class="row">
+                <div class="col-12">
+                  <div class="section-heading page-heading">
+                    <p class="section-description">
+                      Showcasing some of my best work
+                    </p>
+                    <h2 class="section-title">Portfolio</h2>
+                    <div class="animated-bar"></div>
+                  </div>
+                </div>
+              </div>
+              <!-- Portfolio section-->
+              <div class="portfolio-section single-section">
+                <div class="row">
+                  <!-- Filter nav-->
+                  <div class="col-12">
+                    <ul
+                      class="list-inline filter-control"
+                      role="group"
+                      aria-label="Filter Control"
+                    >
+                      <li class="list-inline-item tab-active" data-filter="*">
+                        All
+                      </li>
+                      <li class="list-inline-item" data-filter=".personal">
+                        Personal
+                      </li>
+                      <li class="list-inline-item" data-filter=".team">Team</li>
+                      <!-- <li class="list-inline-item" data-filter=".photos">Photos</li> -->
+                    </ul>
+                  </div>
+                </div>
+                <!-- Thumbnail list-->
+                <div class="portfolio-grid row">
+                  <!-- Single item-->
+                  <div class="single-item col-6 col-lg-4 personal">
+                    <a
+                      class="portfolio-item"
+                      href="img/portfolio/Betcontrol1.png"
+                      data-lightbox
+                    >
+                      <div class="portfolio-wrapper">
+                        <img
+                          class="img-fluid"
+                          alt="Item"
+                          src="img/item-1.jpg"
+                        />
+                        <div class="item-content">
+                          <h6 class="content-title">BetControl Version1</h6>
+                          <span class="content-more">More Info</span>
+                          <div class="stack-wrapper mt-2">
+                            <span
+                              class="badge p-2"
+                              style="background-color: #a09b9b"
+                              >HTML</span
+                            >
+                            <span
+                              class="badge p-2"
+                              style="background-color: #a09b9b"
+                              >CSS</span
+                            >
+                            <span
+                              class="badge p-2"
+                              style="background-color: #a09b9b"
+                              >Bootstrap</span
+                            >
+                            <span
+                              class="badge p-2"
+                              style="background-color: #a09b9b"
+                              >JavaScript</span
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <!-- Single item-->
+                  <div class="single-item col-6 col-lg-4 personal">
+                    <a
+                      class="portfolio-item"
+                      href="img/portfolio/Betcontrol2.png"
+                      data-lightbox
+                    >
+                      <div class="portfolio-wrapper">
+                        <img
+                          class="img-fluid"
+                          alt="Item"
+                          src="img/item-2.jpg"
+                        />
+                        <div class="item-content">
+                          <h6 class="content-title">BetControl Version2</h6>
+                          <span class="content-more">More Info</span>
+                          <div class="stack-wrapper mt-2">
+                            <span
+                              class="badge p-2"
+                              style="background-color: #a09b9b"
+                              >HTML</span
+                            >
+                            <span
+                              class="badge p-2"
+                              style="background-color: #a09b9b"
+                              >CSS</span
+                            >
+                            <span
+                              class="badge p-2"
+                              style="background-color: #a09b9b"
+                              >Bootstrap</span
+                            >
+                            <span
+                              class="badge p-2"
+                              style="background-color: #a09b9b"
+                              >JavaScript</span
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <!-- Single item-->
+                  <div class="single-item col-6 col-lg-4 personal">
+                    <a
+                      class="portfolio-item"
+                      href="img/portfolio/cryptodashboard.png"
+                      data-lightbox
+                    >
+                      <div class="portfolio-wrapper">
+                        <img
+                          class="img-fluid"
+                          alt="Item"
+                          src="img/item-3.jpg"
+                        />
+                        <div class="item-content">
+                          <h6 class="content-title">Crypto/Stock dashboard</h6>
+                          <span class="content-more">More Info</span>
+                          <div class="stack-wrapper mt-2">
+                            <span
+                              class="badge p-2"
+                              style="background-color: #a09b9b"
+                              >HTML</span
+                            >
+                            <span
+                              class="badge p-2"
+                              style="background-color: #a09b9b"
+                              >CSS</span
+                            >
+                            <span
+                              class="badge p-2"
+                              style="background-color: #a09b9b"
+                              >Bootstrap</span
+                            >
+                            <span
+                              class="badge p-2"
+                              style="background-color: #a09b9b"
+                              >JavaScript</span
+                            >
+                            <span
+                              class="badge p-2"
+                              style="background-color: #a09b9b"
+                              >Chart.js</span
+                            >
+                            <span
+                              class="badge p-2"
+                              style="background-color: #a09b9b"
+                              >Coingecko API</span
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <!-- Single item-->
+                  <div class="single-item col-6 col-lg-4 team">
+                    <a
+                      class="portfolio-item"
+                      href="img/portfolio/omnichannelltd.png"
+                      data-lightbox
+                    >
+                      <div class="portfolio-wrapper">
+                        <img
+                          class="img-fluid"
+                          alt="Item"
+                          src="img/item-4.jpg"
+                        />
+                        <div class="item-content">
+                          <h6 class="content-title">Omnichannel Website</h6>
+                          <span class="content-more">More Info</span>
+                          <div class="stack-wrapper mt-2">
+                            <span
+                              class="badge p-2"
+                              style="background-color: #a09b9b"
+                              >HTML</span
+                            >
+                            <span
+                              class="badge p-2"
+                              style="background-color: #a09b9b"
+                              >CSS</span
+                            >
+                            <span
+                              class="badge p-2"
+                              style="background-color: #a09b9b"
+                              >Bootstrap</span
+                            >
+                            <span
+                              class="badge p-2"
+                              style="background-color: #a09b9b"
+                              >JavaScript</span
+                            >
+                            <span
+                              class="badge p-2"
+                              style="background-color: #a09b9b"
+                              >PHP</span
+                            >
+                            <span
+                              class="badge p-2"
+                              style="background-color: #a09b9b"
+                              >Wordpress</span
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <!-- Single item-->
+                  <div class="single-item col-6 col-lg-4 personal">
+                    <a
+                      class="portfolio-item"
+                      href="img/portfolio/freelancedashboard.png"
+                      data-lightbox
+                    >
+                      <div class="portfolio-wrapper">
+                        <img
+                          class="img-fluid"
+                          alt="Item"
+                          src="img/item-5.jpg"
+                        />
+                        <div class="item-content">
+                          <h6 class="content-title">Freelance Dashboard</h6>
+                          <span class="content-more">More Info</span>
+                          <div class="stack-wrapper mt-2">
+                            <span
+                              class="badge p-2"
+                              style="background-color: #a09b9b"
+                              >Nextjs</span
+                            >
+                            <span
+                              class="badge p-2"
+                              style="background-color: #a09b9b"
+                              >Tailwindcss</span
+                            >
+                            <span
+                              class="badge p-2"
+                              style="background-color: #a09b9b"
+                              >Charkra UI</span
+                            >
+                            <span
+                              class="badge p-2"
+                              style="background-color: #a09b9b"
+                              >JavaScript</span
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <!-- Single item-->
+                  <div class="single-item col-6 col-lg-4 team">
+                    <a
+                      class="portfolio-item"
+                      href="img/portfolio/agricon.png"
+                      data-lightbox
+                    >
+                      <div class="portfolio-wrapper">
+                        <img
+                          class="img-fluid"
+                          alt="Item"
+                          src="img/item-6.jpg"
+                        />
+                        <div class="item-content">
+                          <h6 class="content-title">Agricon</h6>
+                          <span class="content-more">More Info</span>
+                          <div class="stack-wrapper g-3">
+                            <span
+                              class="badge p-2"
+                              style="background-color: #a09b9b"
+                              >HTML</span
+                            >
+                            <span
+                              class="badge p-2"
+                              style="background-color: #a09b9b"
+                              >Bootstrap</span
+                            >
+                            <span
+                              class="badge p-2"
+                              style="background-color: #a09b9b"
+                              >PHP</span
+                            >
+                            <span
+                              class="badge p-2"
+                              style="background-color: #a09b9b"
+                              >MySQL</span
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Blog lightbox-->
+    <div class="lightbox-wrapper" id="blog" data-simplebar>
+      <div class="container">
+        <div class="lightbox-close">
+          <div class="close-btn" data-modal-close="">
+            <span class="btn-line"></span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="lightbox-content">
+              <div class="row">
+                <div class="col-12">
+                  <div class="section-heading page-heading">
+                    <p class="section-description">
+                      Check out my latest blog posts
+                    </p>
+                    <h2 class="section-title">My Blog</h2>
+                    <div class="animated-bar"></div>
+                  </div>
+                </div>
+              </div>
+              <!-- Blog section-->
+              <div class="blog-section single-section">
+                <div class="row justify-content-center">
+                  <!-- Single post-->
+                  <div class="col-12 col-sm-8 col-lg-4">
+                    <div class="card single-post">
+                      <a
+                        class="post-img"
+                        href="https://www.linkedin.com/posts/chiedozie-nkulo-58b41135b_internpulse-internshipexperience-growthmindset-activity-7352573239732105216-dQFD?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFmVevsBQaTuXM8CYSisThq3pE6Nton8j9s"
+                      >
+                        <img
+                          class="card-img-top"
+                          src="img/blog-1.png"
+                          alt="Blog post"
+                        /><span class="content-date">15 Jul, 25</span>
+                      </a>
+                      <div class="card-body post-content">
+                        <a
+                          href="https://www.linkedin.com/posts/chiedozie-nkulo-58b41135b_internpulse-internshipexperience-growthmindset-activity-7352573239732105216-dQFD?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFmVevsBQaTuXM8CYSisThq3pE6Nton8j9s"
+                        >
+                          <h5 class="card-title content-title">
+                            Certificate of completion
+                          </h5>
+                        </a>
+                        <p class="card-text content-description">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit. Dolore, porro rem quod illo quam, eum alias id,
+                          repellendus magni, quas.
+                        </p>
+                      </div>
+                    </div>
+                    <!-- <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7352572676789420032?collapsed=1" height="250" width="370" frameborder="0" allowfullscreen="" title="Embedded post"></iframe> -->
+                  </div>
+                  <!-- Single post-->
+                  <div class="col-12 col-sm-8 col-lg-4">
+                    <div class="card single-post">
+                      <a
+                        class="post-img"
+                        href="https://www.linkedin.com/posts/chiedozie-nkulo-58b41135b_webdevelopment-javascript-education-activity-7356273367651360768-ISCu?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFmVevsBQaTuXM8CYSisThq3pE6Nton8j9s"
+                      >
+                        <img
+                          class="card-img-top"
+                          src="img/blog-2.png"
+                          alt="Blog post"
+                        /><span class="content-date">12 Aug, 25</span>
+                      </a>
+                      <div class="card-body post-content">
+                        <a
+                          href="https://www.linkedin.com/posts/chiedozie-nkulo-58b41135b_webdevelopment-javascript-education-activity-7356273367651360768-ISCu?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFmVevsBQaTuXM8CYSisThq3pE6Nton8j9s"
+                        >
+                          <h5 class="card-title content-title">
+                            Introducing Codeplay
+                          </h5>
+                        </a>
+                        <p class="card-text content-description">
+                          Where Gaming Meets Programming Education I'm excited
+                          to share a project I've been working on, an
+                          interactive web application that transforms
+                          fundamental programming concepts into engaging games
+                          for teenagers and coding beginners.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Single post-->
+                  <div class="col-12 col-sm-8 col-lg-4">
+                    <div class="card single-post">
+                      <a
+                        class="post-img"
+                        href="https://www.linkedin.com/posts/chiedozie-nkulo-58b41135b_internpulse-nextjs-chakraui-activity-7338504067981225984-F7yv?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFmVevsBQaTuXM8CYSisThq3pE6Nton8j9s"
+                      >
+                        <img
+                          class="card-img-top"
+                          src="img/blog-3.png"
+                          alt="Blog post"
+                        /><span class="content-date">5 Jul, 25</span>
+                      </a>
+                      <div class="card-body post-content">
+                        <a
+                          href="https://www.linkedin.com/posts/chiedozie-nkulo-58b41135b_internpulse-nextjs-chakraui-activity-7338504067981225984-F7yv?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFmVevsBQaTuXM8CYSisThq3pE6Nton8j9s"
+                        >
+                          <h5 class="card-title content-title">
+                            Pushing Through Challenges with Internpulse!
+                          </h5>
+                        </a>
+                        <p class="card-text content-description">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit. Dolore, porro rem quod illo quam, eum alias id,
+                          repellendus magni, quas.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Single post-->
+                  <div class="col-12 col-sm-8 col-lg-4">
+                    <div class="card single-post">
+                      <a
+                        class="post-img"
+                        href="https://www.linkedin.com/posts/chiedozie-nkulo-58b41135b_frontenddevelopment-webdesign-techcommunity-activity-7332418777067757568-5_Oh?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFmVevsBQaTuXM8CYSisThq3pE6Nton8j9s"
+                      >
+                        <img
+                          class="card-img-top"
+                          src="img/blog-4.png"
+                          alt="Blog post"
+                        /><span class="content-date">11 Dec, 19</span>
+                      </a>
+                      <div class="card-body post-content">
+                        <a
+                          href="https://www.linkedin.com/posts/chiedozie-nkulo-58b41135b_frontenddevelopment-webdesign-techcommunity-activity-7332418777067757568-5_Oh?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFmVevsBQaTuXM8CYSisThq3pE6Nton8j9s"
+                        >
+                          <h5 class="card-title content-title">
+                            Intro to Tech
+                          </h5>
+                        </a>
+                        <p class="card-text content-description">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit. Dolore, porro rem quod illo quam, eum alias id,
+                          repellendus magni, quas.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Single post-->
+                  <div class="col-12 col-sm-8 col-lg-4">
+                    <div class="card single-post">
+                      <a
+                        class="post-img"
+                        href="https://www.linkedin.com/posts/chiedozie-nkulo-58b41135b_webdesign-ux-activity-7334944417960624128-sE7B?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFmVevsBQaTuXM8CYSisThq3pE6Nton8j9s"
+                      >
+                        <img
+                          class="card-img-top"
+                          src="img/blog-5.png"
+                          alt="Blog post"
+                        /><span class="content-date">15 Nov, 19</span>
+                      </a>
+                      <div class="card-body post-content">
+                        <a
+                          href="https://www.linkedin.com/posts/chiedozie-nkulo-58b41135b_webdesign-ux-activity-7334944417960624128-sE7B?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFmVevsBQaTuXM8CYSisThq3pE6Nton8j9s"
+                        >
+                          <h5 class="card-title content-title">
+                            How to work from home
+                          </h5>
+                        </a>
+                        <p class="card-text content-description">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit. Dolore, porro rem quod illo quam, eum alias id,
+                          repellendus magni, quas.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Single post-->
+                  <!-- <div class="col-12 col-sm-8 col-lg-4">
+                  <div class="card single-post"><a class="post-img" href="#0"><img class="card-img-top" src="img/post-6.jpg" alt="Blog post"><span class="content-date">8 Aug, 19</span></a>
+                    <div class="card-body post-content"><a href="#0">
+                        <h5 class="card-title content-title">How to enjoy your business trip</h5>
+                      </a>
+                      <p class="card-text content-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.</p>
+                    </div>
+                  </div>
+                </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact lightbox-->
+    <div class="lightbox-wrapper" id="contact" data-simplebar>
+      <div class="container">
+        <div class="lightbox-close">
+          <div class="close-btn" data-modal-close="">
+            <span class="btn-line"></span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="lightbox-content">
+              <div class="row">
+                <div class="col-12">
+                  <div class="section-heading page-heading">
+                    <p class="section-description">
+                      Feel free to contact me anytimes
+                    </p>
+                    <h2 class="section-title">Get in Touch</h2>
+                    <div class="animated-bar"></div>
+                  </div>
+                </div>
+              </div>
+              <!-- Contact section-->
+              <div class="contact-section single-section">
+                <div class="row">
+                  <!-- Contact form-->
+                  <div class="col-12 col-lg-7">
+                    <form
+                      class="contact-form"
+                      id="contact-form"
+                      action="/api/contact"
+                    >
+                      <h4 class="content-title">Message Me</h4>
+                      <div class="row">
+                        <div class="col-12 col-md-6 form-group">
+                          <input
+                            class="form-control"
+                            id="contact-name"
+                            type="text"
+                            name="name"
+                            placeholder="Name"
+                            required=""
+                          />
+                        </div>
+                        <div class="col-12 col-md-6 form-group">
+                          <input
+                            class="form-control"
+                            id="contact-email"
+                            type="email"
+                            name="email"
+                            placeholder="Email"
+                            required=""
+                          />
+                        </div>
+                        <div class="col-12 form-group">
+                          <input
+                            class="form-control"
+                            id="contact-subject"
+                            type="text"
+                            name="subject"
+                            placeholder="Subject"
+                            required=""
+                          />
+                        </div>
+                        <div class="col-12 form-group form-message">
+                          <textarea
+                            class="form-control"
+                            id="contact-message"
+                            name="message"
+                            placeholder="Message"
+                            rows="5"
+                            required=""
+                          ></textarea>
+                        </div>
+                        <div class="col-12 form-submit">
+                          <button
+                            class="btn button-main button-scheme"
+                            id="contact-submit"
+                            type="submit"
+                          >
+                            Send Message
+                          </button>
+                          <p class="contact-feedback"></p>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <!-- Contact info-->
+                  <div class="col-12 col-lg-5">
+                    <div class="contact-info">
+                      <h4 class="content-title">Contact Info</h4>
+                      <p class="info-description">
+                        Always available for freelance work if the right project
+                        comes along, Feel free to contact me!
+                      </p>
+                      <ul class="list-unstyled list-info">
+                        <li>
+                          <div class="media align-items-center">
+                            <span class="info-icon"
+                              ><i class="icon ion-logo-ionic"></i
+                            ></span>
+                            <div class="media-body info-details">
+                              <h6 class="info-type">Name</h6>
+                              <span class="info-value"
+                                >Chiedozie Ikechukwu Nkulo</span
+                              >
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="media align-items-center">
+                            <span class="info-icon"
+                              ><i class="icon ion-md-map"></i
+                            ></span>
+                            <div class="media-body info-details">
+                              <h6 class="info-type">Location</h6>
+                              <span class="info-value"
+                                >Umuahia, Abia state, Nigeria.</span
+                              >
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="media align-items-center">
+                            <span class="info-icon"
+                              ><i class="icon ion-md-call"></i
+                            ></span>
+                            <div class="media-body info-details">
+                              <h6 class="info-type">Call Me</h6>
+                              <span class="info-value"
+                                ><a href="tel:+2348034825459"
+                                  >+234 803 482 5459</a
+                                ></span
+                              >
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="media align-items-center">
+                            <span class="info-icon"
+                              ><i class="icon ion-md-send"></i
+                            ></span>
+                            <div class="media-body info-details">
+                              <h6 class="info-type">Email Me</h6>
+                              <span class="info-value"
+                                ><a href="mailto:dozienkulo@gmail.com"
+                                  >dozienkulo@gmail.com</a
+                                ></span
+                              >
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- removeIf(customizerDist)-->
+    <div class="demo-tool">
+      <div class="tool-wrapper">
+        <span class="tool-toggler"><i class="icon ion-md-settings"></i></span>
+        <div class="tool-box">
+          <ul class="list-inline single-block color-switcher">
+            <li
+              class="list-inline-item"
+              style="background-color: #2c31ff"
+              data-path="css/colors/main-blueviolet.css"
+            ></li>
+            <li
+              class="list-inline-item"
+              style="background-color: #3460d1"
+              data-path="css/colors/main-nightskyblue.css"
+            ></li>
+            <li
+              class="list-inline-item"
+              style="background-color: #ee3158"
+              data-path="css/colors/main-redpink.css"
+            ></li>
+            <li
+              class="list-inline-item"
+              style="background-color: #007bff"
+              data-path="css/colors/main-blue.css"
+            ></li>
+            <li
+              class="list-inline-item"
+              style="background-color: #17a2b8"
+              data-path="css/colors/main-cyan.css"
+            ></li>
+            <li
+              class="list-inline-item"
+              style="background-color: #3365b0"
+              data-path="css/colors/main-darkblue.css"
+            ></li>
+            <li
+              class="list-inline-item"
+              style="background-color: #a435b7"
+              data-path="css/colors/main-darkmagenta.css"
+            ></li>
+            <li
+              class="list-inline-item"
+              style="background-color: #c93e70"
+              data-path="css/colors/main-darkpink.css"
+            ></li>
+            <li
+              class="list-inline-item"
+              style="background-color: #bf2a3d"
+              data-path="css/colors/main-darkred.css"
+            ></li>
+            <li
+              class="list-inline-item"
+              style="background-color: #28a745"
+              data-path="css/colors/main-green.css"
+            ></li>
+            <li
+              class="list-inline-item"
+              style="background-color: #6610f2"
+              data-path="css/colors/main-indigo.css"
+            ></li>
+            <li
+              class="list-inline-item"
+              style="background-color: #fd7e14"
+              data-path="css/colors/main-orange.css"
+            ></li>
+            <li
+              class="list-inline-item"
+              style="background-color: #e83e8c"
+              data-path="css/colors/main-pink.css"
+            ></li>
+            <li
+              class="list-inline-item"
+              style="background-color: #6f42c1"
+              data-path="css/colors/main-purple.css"
+            ></li>
+            <li
+              class="list-inline-item"
+              style="background-color: #dc3545"
+              data-path="css/colors/main-red.css"
+            ></li>
+            <li
+              class="list-inline-item"
+              style="background-color: #20c997"
+              data-path="css/colors/main-teal.css"
+            ></li>
+            <li
+              class="list-inline-item"
+              style="background-color: #333"
+              data-path="css/colors/main-dark.css"
+            ></li>
+            <li
+              class="list-inline-item"
+              style="background-color: #78b230"
+              data-path="css/colors/main-yellowgreen.css"
+            ></li>
+            <li
+              class="list-inline-item"
+              style="background-color: #e16f7c"
+              data-path="css/colors/main-tangopink.css"
+            ></li>
+            <li
+              class="list-inline-item"
+              style="background-color: #6f73d2"
+              data-path="css/colors/main-moodyblue.css"
+            ></li>
+            <li
+              class="list-inline-item"
+              style="background-color: #664c43"
+              data-path="css/colors/main-brown.css"
+            ></li>
+            <li
+              class="list-inline-item"
+              style="background-color: #4770d9"
+              data-path="css/colors/main-royalblue.css"
+            ></li>
+            <li
+              class="list-inline-item"
+              style="background-color: #ffb100"
+              data-path="css/colors/main-darkyellow.css"
+            ></li>
+          </ul>
+          <div class="single-block buy-btn mb-0">
+            <a
+              class="btn btn-success btn-sm"
+              target="_blank"
+              href="https://themeforest.net/item/kitzu-personal-portfolio-template/26075107"
+              role="button"
+              >Buy Kitzu</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- endremoveIf(customizerDist)-->
+
+    <!-- REALTIME AGE -->
+    <script>
+      // Birthdate in YYYY-MM-DD format
+      const BIRTHDATE = "2005-12-03";
+
+      function calculateAge(dobStr) {
+        const dob = new Date(dobStr);
+        const now = new Date();
+        let age = now.getFullYear() - dob.getFullYear();
+
+        // Check if birthday has already happened this year
+        const hasHadBirthdayThisYear =
+          now.getMonth() > dob.getMonth() ||
+          (now.getMonth() === dob.getMonth() && now.getDate() >= dob.getDate());
+
+        if (!hasHadBirthdayThisYear) {
+          age--;
+        }
+        return age;
+      }
+      // Insert age into the HTML
+      document.getElementById("age").textContent = calculateAge(BIRTHDATE);
+    </script>
+
+    <!-- Scripts-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/animatedModal.js"></script>
+    <script src="js/tiny-slider.js"></script>
+    <script src="js/lity.min.js"></script>
+    <script src="js/simplebar.min.js"></script>
+    <script src="js/jquery.mb.YTPlayer.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- Custom JS (Add your custom JS scripts to this file)-->
+    <script src="js/custom.js"></script>
+    <!-- removeIf(customizerDist)-->
+    <script src="../customizer/main.js"></script>
+    <!-- endremoveIf(customizerDist)-->
+  </body>
+</html>
