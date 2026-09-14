@@ -1671,30 +1671,6 @@ hr {
   .project-section .filter-control > li {
     font-size: 14px;
   }
-
-  .project-section .project-grid .project-wrapper {
-    align-items: stretch;
-    background-color: #181818;
-    display: block;
-  }
-
-  .project-section .project-grid .project-wrapper:before {
-    display: none;
-  }
-
-  .project-section .project-grid .project-wrapper .item-content {
-    background-color: #181818;
-    opacity: 1;
-    padding: 18px;
-    position: static;
-    visibility: visible;
-  }
-
-  .project-section .project-grid .project-wrapper .item-content > span {
-    color: #cecece;
-    display: block;
-    line-height: 1.6;
-  }
 }
 
 @media (max-width: 575.98px) {
