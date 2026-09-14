@@ -1,6 +1,6 @@
 /*!
  * Item: Kitzu
- * Description: Personal Portfolio Template
+ * Description: Personal project Template
  * Author/Developer: Exill
  * Author/Developer URL: https://themeforest.net/user/exill
  * Version: v2.0.0
@@ -64,9 +64,9 @@
         ],
         [
           [
-            "#portfolio",
-            ".portfolio-section .single-item .portfolio-item",
-            ".portfolio-wrapper",
+            "#project",
+            ".project-section .single-item .project-item",
+            ".project-wrapper",
           ],
           [
             { matchMedia: "(max-width: 991.98px)", columns: 2 },
@@ -210,12 +210,12 @@
             t();
           }));
       }),
-      t("#portfolio .portfolio-section", function () {
-        var t = e("#portfolio .portfolio-section .portfolio-grid"),
-          i = e("#portfolio .portfolio-section .filter-control li");
+      t("#project .project-section", function () {
+        var t = e("#project .project-section .project-grid"),
+          i = e("#project .project-section .filter-control li");
         t.imagesLoaded(function () {
           (t.isotope({
-            itemSelector: "#portfolio .portfolio-section .single-item",
+            itemSelector: "#project .project-section .single-item",
             masonry: { horizontalOrder: !0 },
           }),
             i.on("click", function () {
@@ -238,31 +238,30 @@
                 url: i.attr("action"),
                 type: "POST",
                 data: i.serialize(),
-              }).done(function (e) {
-                "success" == e
-                  ? (a.removeClass("wait").html("Success").addClass("success"),
-                    o
-                      .addClass("success")
-                      .html("Thank you for your message. It has been sent.")
-                      .fadeIn(200),
-                    setTimeout(function () {
-                      (a.html(n).removeClass("success").prop("disabled", !1),
-                        o.fadeOut(200).removeClass("success").html(""));
-                    }, 6e3),
-                    i[0].reset())
-                  : (console.log(e),
-                    a.removeClass("wait").html("Error").addClass("error"),
-                    o
-                      .addClass("error")
-                      .html(
-                        "Server error! Please check your browser console log for more details.",
-                      )
-                      .fadeIn(200),
-                    setTimeout(function () {
-                      (a.html(n).removeClass("error").prop("disabled", !1),
-                        o.fadeOut(200).removeClass("error").html(""));
-                    }, 6e3));
-              });
+                headers: { Accept: "application/json" },
+              })
+                .done(function () {
+                  a.removeClass("wait").html("Success").addClass("success");
+                  o.addClass("success")
+                    .html("Thank you for your message. It has been sent.")
+                    .fadeIn(200);
+                  setTimeout(function () {
+                    a.html(n).removeClass("success").prop("disabled", !1);
+                    o.fadeOut(200).removeClass("success").html("");
+                  }, 6e3);
+                  i[0].reset();
+                })
+                .fail(function (e) {
+                  console.log(e);
+                  a.removeClass("wait").html("Error").addClass("error");
+                  o.addClass("error")
+                    .html("Please check the form and try again.")
+                    .fadeIn(200);
+                  setTimeout(function () {
+                    a.html(n).removeClass("error").prop("disabled", !1);
+                    o.fadeOut(200).removeClass("error").html("");
+                  }, 6e3);
+                });
             }, 1e3));
         });
       }));

@@ -1,6 +1,6 @@
 /*!
   * Item: Kitzu
-  * Description: Personal Portfolio Template
+  * Description: Personal project Template
   * Author/Developer: Exill
   * Author/Developer URL: https://themeforest.net/user/exill
   * Version: v2.0.0
@@ -218,17 +218,17 @@ a:not(.btn):hover {
 .skills-section .single-skill .skill-progress .progress-bar {
   background-color: #0b4884;
 }
-.portfolio-section .filter-control > li.tab-active,
-.portfolio-section .filter-control > li:hover {
+.project-section .filter-control > li.tab-active,
+.project-section .filter-control > li:hover {
   color: #0b4884;
 }
-.portfolio-section .filter-control > li.tab-active:before,
-.portfolio-section .filter-control > li:hover:before {
+.project-section .filter-control > li.tab-active:before,
+.project-section .filter-control > li:hover:before {
   background-color: #0b4884;
 }
-.portfolio-section
-  .portfolio-grid
-  .portfolio-wrapper
+.project-section
+  .project-grid
+  .project-wrapper
   .item-content
   .content-more {
   color: #0b4884;

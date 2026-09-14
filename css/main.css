@@ -1,6 +1,6 @@
 /*!
   * Item: Kitzu
-  * Description: Personal Portfolio Template
+  * Description: Personal project Template
   * Author/Developer: Exill
   * Author/Developer URL: https://themeforest.net/user/exill
   * Version: v2.0.0
@@ -1576,12 +1576,12 @@ hr {
   }
 }
 
-.portfolio-section .filter-control {
+.project-section .filter-control {
   margin-bottom: 16px;
   text-align: center;
 }
 
-.portfolio-section .filter-control > li {
+.project-section .filter-control > li {
   border-bottom: 1px solid transparent;
   color: #cecece;
   cursor: pointer;
@@ -1592,12 +1592,12 @@ hr {
   transition: all 0.1s ease-in-out;
 }
 
-.portfolio-section .filter-control > li:not(:last-child) {
+.project-section .filter-control > li:not(:last-child) {
   margin-right: 16px;
 }
 
-.portfolio-section .filter-control > li.tab-active:before,
-.portfolio-section .filter-control > li:hover:before {
+.project-section .filter-control > li.tab-active:before,
+.project-section .filter-control > li:hover:before {
   bottom: 0;
   content: "";
   height: 1px;
@@ -1605,7 +1605,7 @@ hr {
   width: 100%;
 }
 
-.portfolio-section .portfolio-grid .portfolio-wrapper {
+.project-section .project-grid .project-wrapper {
   -ms-flex-align: center;
   align-items: center;
   display: -ms-flexbox;
@@ -1615,7 +1615,7 @@ hr {
   position: relative;
 }
 
-.portfolio-section .portfolio-grid .portfolio-wrapper:before {
+.project-section .project-grid .project-wrapper:before {
   background-color: rgba(0, 0, 0, 0.9);
   bottom: 0;
   content: "";
@@ -1628,11 +1628,11 @@ hr {
   z-index: 1;
 }
 
-.portfolio-section .portfolio-grid .portfolio-wrapper > .img-fluid {
+.project-section .project-grid .project-wrapper > .img-fluid {
   width: 100%;
 }
 
-.portfolio-section .portfolio-grid .portfolio-wrapper .item-content {
+.project-section .project-grid .project-wrapper .item-content {
   left: 0;
   opacity: 0;
   padding: 3px 18px;
@@ -1644,9 +1644,9 @@ hr {
   z-index: 2;
 }
 
-.portfolio-section
-  .portfolio-grid
-  .portfolio-wrapper
+.project-section
+  .project-grid
+  .project-wrapper
   .item-content
   .content-title {
   color: #fff;
@@ -1656,35 +1656,35 @@ hr {
   margin-bottom: 10px;
 }
 
-.portfolio-section
-  .portfolio-grid
-  .portfolio-wrapper
+.project-section
+  .project-grid
+  .project-wrapper
   .item-content
   .content-more {
   display: inline-block;
   font-weight: 600;
 }
 
-.portfolio-section .portfolio-grid .portfolio-wrapper:hover:before {
+.project-section .project-grid .project-wrapper:hover:before {
   opacity: 1;
   visibility: visible;
 }
 
-.portfolio-section .portfolio-grid .portfolio-wrapper:hover .item-content {
+.project-section .project-grid .project-wrapper:hover .item-content {
   opacity: 1;
   visibility: visible;
 }
 
 @media (max-width: 767.98px) {
-  .portfolio-section .filter-control > li {
+  .project-section .filter-control > li {
     font-size: 14px;
   }
 }
 
 @media (max-width: 575.98px) {
-  .portfolio-section
-    .portfolio-grid
-    .portfolio-wrapper
+  .project-section
+    .project-grid
+    .project-wrapper
     .item-content
     .content-title {
     font-size: 14px;
