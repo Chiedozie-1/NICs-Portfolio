@@ -1,11 +1,3 @@
-/*!
-  * Item: Kitzu
-  * Description: Personal project Template
-  * Author/Developer: Exill
-  * Author/Developer URL: https://themeforest.net/user/exill
-  * Version: v2.0.0
-  * License: Themeforest Standard Licenses: https://themeforest.net/licenses
-  */
 :focus {
   outline: 0;
 }
@@ -1447,46 +1439,134 @@ hr {
   }
 }
 
-.skills-section .single-skill:not(:last-child) {
-  margin-bottom: 42px;
+.certifications-section .certification-grid > [class*="col-"] {
+  margin-bottom: 14px;
+}
+
+.certifications-section .certification-item {
+  align-items: center;
+  background-color: #161616;
+  border: 1px solid #313131;
+  border-radius: 6px;
+  display: flex;
+  min-height: 58px;
+  padding: 14px 18px;
+  transition:
+    border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.certifications-section .certification-item:hover {
+  border-color: #0b4884;
+  transform: translateY(-2px);
+  cursor: pointer;
+}
+
+.certifications-section .certification-dot {
+  background-color: #0b4884;
+  border-radius: 50%;
+  flex: 0 0 8px;
+  height: 8px;
+  margin-right: 14px;
+  width: 8px;
+}
+
+.certifications-section .certification-name {
+  color: #f0f0f0;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.certifications-section .certification-date {
+  color: #8b9caf;
+  font-size: 11px;
+  margin-left: auto;
+  padding-left: 12px;
+  white-space: nowrap;
+}
+
+@media (max-width: 575.98px) {
+  .certifications-section .certification-item {
+    align-items: flex-start;
+  }
+
+  .certifications-section .certification-date {
+    font-size: 10px;
+  }
+}
+
+.skills-section .skills-grid > [class*="col-"] {
+  margin-bottom: 18px;
+}
+
+.skills-section .single-skill {
+  background-color: #181818;
+  border: 1px solid #2f2f2f;
+  border-radius: 6px;
+  color: #fff;
+  min-height: 170px;
+  padding: 28px;
+}
+
+.skills-section .single-skill:hover {
+  border-color: #0b4884;
+  transform: translateY(-2px);
+  cursor: pointer;
+}
+
+.skills-section .single-skill .skill-category {
+  color: #8b9caf;
+  display: block;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  margin-bottom: 16px;
+  text-transform: uppercase;
 }
 
 .skills-section .single-skill .skill-info {
-  -ms-flex-pack: justify;
-  color: #cecece;
-  display: -ms-flexbox;
+  color: #fff;
   display: flex;
-  font-size: 16px;
-  justify-content: space-between;
-  margin-bottom: 4px;
+  font-size: 19px;
+  font-weight: 600;
+  margin-bottom: 24px;
 }
 
 .skills-section .single-skill .skill-info .skill-name {
   display: inline-block;
-  margin-right: 12px;
   white-space: nowrap;
+}
+
+.skills-section .single-skill .skill-meta {
+  align-items: center;
+  color: #cecece;
+  display: flex;
+  font-size: 13px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.skills-section .single-skill .skill-percentage {
+  color: #0b4884;
+  font-weight: 600;
 }
 
 .skills-section .single-skill .skill-progress {
   background-color: #2f2f2f;
-  border-radius: 1px;
+  border-radius: 0;
   font-size: 15px;
-  height: 9px;
+  height: 3px;
   overflow: visible;
 }
 
 .skills-section .single-skill .skill-progress .progress-bar {
-  border-bottom-left-radius: 1px;
-  border-top-left-radius: 1px;
+  background-color: #0b4884;
+  border-radius: 0;
 }
 
 @media (max-width: 767.98px) {
-  .skills-section .single-skill:not(:last-child) {
-    margin-bottom: 40px !important;
-  }
-
-  .skills-section [class*="col-"]:not(:last-child) .single-skill {
-    margin-bottom: 40px !important;
+  .skills-section .single-skill {
+    min-height: 0;
   }
 }
 

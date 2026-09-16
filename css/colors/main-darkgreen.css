@@ -1,11 +1,3 @@
-/*!
-  * Item: Kitzu
-  * Description: Personal project Template
-  * Author/Developer: Exill
-  * Author/Developer URL: https://themeforest.net/user/exill
-  * Version: v2.0.0
-  * License: Themeforest Standard Licenses: https://themeforest.net/licenses
-  */
 :root {
   --custom: #0b4884;
 }
@@ -100,7 +92,7 @@ a.badge-custom:focus {
 .alert-custom {
   background-color: #ccece0;
   border-color: #b8e4d4;
-  color: #072D52;
+  color: #072d52;
 }
 .alert-custom hr {
   border-top-color: #a6ddc9;
@@ -110,16 +102,16 @@ a.badge-custom:focus {
 }
 .list-group-item-custom {
   background-color: #b8e4d4;
-  color: #072D52;
+  color: #072d52;
 }
 .list-group-item-custom.list-group-item-action:focus,
 .list-group-item-custom.list-group-item-action:hover {
   background-color: #a6ddc9;
-  color: #072D52;
+  color: #072d52;
 }
 .list-group-item-custom.list-group-item-action.active {
-  background-color: #072D52;
-  border-color: #072D52;
+  background-color: #072d52;
+  border-color: #072d52;
   color: #fff;
 }
 .bg-custom {
@@ -139,7 +131,7 @@ button.bg-custom:hover {
 }
 a.text-custom:focus,
 a.text-custom:hover {
-  color: #072D52 !important;
+  color: #072d52 !important;
 }
 ::-moz-selection {
   background-color: #0b4884;
@@ -154,7 +146,7 @@ a:not(.btn) {
 }
 a:not(.btn):focus,
 a:not(.btn):hover {
-  color: #072D52;
+  color: #072d52;
 }
 .color-scheme {
   color: #0b4884;
@@ -167,8 +159,8 @@ a:not(.btn):hover {
   border: 1px solid #0b4884 !important;
 }
 .btn.button-scheme:focus {
-  background-color: #072D52 !important;
-  border-color: #072D52 !important;
+  background-color: #072d52 !important;
+  border-color: #072d52 !important;
   box-shadow: none !important;
 }
 .btn.button-outline {
@@ -178,7 +170,7 @@ a:not(.btn):hover {
 }
 .btn.button-outline:focus {
   background-color: rgba(34, 34, 34, 0.05) !important;
-  border-color: #072D52 !important;
+  border-color: #072d52 !important;
   box-shadow: none !important;
 }
 .lightbox-wrapper
@@ -226,11 +218,7 @@ a:not(.btn):hover {
 .project-section .filter-control > li:hover:before {
   background-color: #0b4884;
 }
-.project-section
-  .project-grid
-  .project-wrapper
-  .item-content
-  .content-more {
+.project-section .project-grid .project-wrapper .item-content .content-more {
   color: #0b4884;
 }
 .blog-section .single-post .post-img .content-date {

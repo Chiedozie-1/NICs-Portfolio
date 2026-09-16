@@ -1,11 +1,3 @@
-/*!
- * Item: Kitzu
- * Description: Personal project Template
- * Author/Developer: Exill
- * Author/Developer URL: https://themeforest.net/user/exill
- * Version: v2.0.0
- * License: Themeforest Standard Licenses: https://themeforest.net/licenses
- */
 !(function (e) {
   "use strict";
   (e(function () {
@@ -192,13 +184,10 @@
       t("#resume .skills-section", function () {
         var t = function () {
           e("#resume .skills-section .single-skill").each(function () {
-            var t = Math.min(100, Math.max(0, e(this).data("percentage"))),
-              i = e(this).find(".skill-progress").outerWidth(!0),
-              a = i - i * (t / 100);
+            var t = Math.min(100, Math.max(0, e(this).data("percentage")));
             (e(this)
               .find(".skill-percentage")
-              .text(t + "%")
-              .css("margin-right", a),
+              .text(t + "%"),
               e(this)
                 .find(".progress-bar")
                 .attr("aria-valuenow", t)
